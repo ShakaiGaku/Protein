@@ -1,0 +1,82 @@
+@media screen and (min-width:767px) { 
+  a:link {color:rgb(0, 0, 0);transition:2s;}
+  a:visited{color:rgb(0, 0, 0);}
+  a:hover {color:#306df1;}
+  body{
+    font-family:"Avenir Next";
+  background-color: antiquewhite;
+  }
+  li{
+    list-style: none;
+  }
+  header{
+    background-color:rgba(233,198,145,0.623);
+    height:90px;
+  }
+  .header-logo{
+    float:left;
+    padding:10px 60px 0px 20px;
+  }
+  .header-list li{
+    float:left;
+    font-size:33px;
+    padding:20px 20px 0px 20px;
+  }
+  .twitter-timeline{
+    float:right;
+  }
+  h1{
+    color:rgb(0, 0, 0);
+    font-size:64px;
+    border-bottom: 3px solid rgb(173, 48, 48);
+  }
+  h2{
+    font-size:40px;
+  }
+  h3{
+    font-size:35px;
+  }
+  p{
+    font-size:23px;
+  }
+  .contents-item{
+    margin:50px;
+    padding:10px;
+    background-color: rgba(103, 225, 255, 0.37);
+  }
+  }
+@media screen and (max-width:767px) { 
+  a:link {color:rgb(0, 0, 0); transition:2s;}
+  a:visited{color:rgb(0, 0, 0);}
+  a:hover { color:#308af1;}
+body{
+    font-family: "Avenir Next";
+    background-color: antiquewhite;
+    }
+      header{
+        background-color:rgba(233,198,145,0.623);
+        height:110px;
+        margin:4px;
+      }
+      .header-logo{
+        float:left;
+        padding:15px 0px 17px 3px;
+      }
+      .header-list li{  
+      list-style: none;
+       font-size:17px;
+       padding-top:4px;
+      }
+.main{
+  margin-top:50px;}
+  h1{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(236, 39, 39);
+  }
+  .contents-item{
+    margin:20px;
+    padding: 5px;
+    background-color: rgba(232, 236, 255, 0.808);
+  }
+}
